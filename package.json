@@ -1,32 +1,32 @@
 {
-  "name": "x4build",
-  "version": "1.5.27",
-  "description": "x4js solution builder, server and hmr, cli command line",
-  "main": "x4build.mjs",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rlibre/x4build.git"
-  },
-  "keywords": [
-    "x4js",
-    "x4build"
-  ],
-  "author": "ecochard@r-libre.fr",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/rlibre/x4build/issues"
-  },
-  "bin": "x4build.mjs",
-  "homepage": "https://github.com/rlibre/x4build#readme",
-  "dependencies": {
-    "@chialab/esbuild-plugin-html": "^0.17.2",
-    "ansi-colors": "^4.1.3",
-    "chokidar": "^3.5.3",
-    "commander": "^10.0.0",
-    "esbuild": "^0.17.10",
-    "esbuild-plugin-less": "^1.1.12",
-    "faye-websocket": "^0.11.4",
-    "fs-extra": "^11.1.1",
-    "tar": "^6.1.13"
-  }
+	"name": "x4cli",
+	"version": "1.6.0",
+	"description": "x4js client command line, server and hmr, cli command line",
+	"main": "x4cli.mjs",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rlibre/x4cli.git"
+	},
+	"keywords": [
+		"x4js",
+		"x4cli"
+	],
+	"author": "ecochard@r-libre.fr",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/rlibre/x4cli/issues"
+	},
+	"bin": "x4cli.mjs",
+	"homepage": "https://github.com/rlibre/x4cli#readme",
+	"dependencies": {
+		"@chialab/esbuild-plugin-html": "^0.17.2",
+		"ansi-colors": "^4.1.3",
+		"chokidar": "^3.5.3",
+		"commander": "^10.0.0",
+		"esbuild": "^0.17.10",
+		"esbuild-plugin-less": "^1.1.12",
+		"faye-websocket": "^0.11.4",
+		"fs-extra": "^11.1.1",
+		"tar": "^6.1.13"
+	}
 }

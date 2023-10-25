@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 
 /**
-* @file build.mjs
+* @file x4cli.mjs
 * @author Etienne Cochard 
-* @copyright (c) 2022 R-libre ingenierie, all rights reserved.
+* @copyright (c) 2023 R-libre ingenierie, all rights reserved.
 *
 * @description quick and dirty compiler, server & hmr
-* x4build command line: x4build help
+* x4cli command line: x4cli help
 *
 **/
 
@@ -18,7 +18,7 @@ import * as http from 'http';
 import * as url from 'url';
 
 import colors from "ansi-colors"
-import { execSync, spawn, spawnSync } from "child_process";
+import { spawn, spawnSync } from "child_process";
 import { program } from 'commander'
 
 import * as chokidar from 'chokidar';
@@ -57,8 +57,7 @@ function log( ...args ) {
 const VERSION = JSON.parse( fs.readFileSync( path.join(x4builddir,"/package.json") ) ).version;
 
 logn( "\u001b[2J" )
-log(colors.cyan("\n\n\nx4build "+VERSION+"\n"));	
-
+log(colors.cyan("\n\n\nx4cli "+VERSION+"\n"));	
 
 
 function loadJSON( fname ) {
